@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+div.body{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7,1fr) 120px repeat(4,60px) 120px repeat(2,80px) 40px;
+}
+div.bigtext{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+}
+.middle{
+    text-align: center;
+    margin: 60px 0;
+}
+#gd1-3{
+    grid-column-start: 1; grid-column-end: 3;
+}
+.buttext{
+    margin: 10px 0;
+    width: 20%;
+    height: 50px;
+}
+.inptext{
+    margin: 10px 0;
+    width: 90%;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px;
+    background-color: white;
+}
+.inptext#butt{
+    border: none;
+}
+input.bigger{
+    margin: 10px 0;
+    width: 90%;
+    padding: 5px;
+    height: 60px;
+    border-radius: 5px;
+    border: solid 1px;
+    background-color: white;
+}
+.seltext{
+    margin: 10px 0;
+    width: 92.5%;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px;
+    background-color: white;
+}
+div.ingridblock{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+a#gd1-3{
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+}
+a#gd1-3::after{
+    content: " ►";
+}
+.ibt::before{
+    content: "   ";
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 15px;
+}
